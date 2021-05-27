@@ -2,3 +2,39 @@
   margin: 0;
   padding: 0;
 }
+
+html,
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  justify-content: center;
+  grid-template-rows: 1fr 1fr;
+}
+
+#todo-input {
+  font-size: 2rem;
+}
+
+#todo-output {
+  font-size: 1.5rem;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+}
+
+.grid {
+  display: grid;
+}
+
+.removed {
+  text-decoration: line-through;
+}
+
+.noshow {
+  display: none;
+}
