@@ -7,6 +7,22 @@ html,
 body {
   min-width: 100vw;
   min-height: 100vh;
+}
+
+.wrapper {
+  height: 100vh;
+  justify-content: center;
+  grid-template-rows: 0.35fr 1fr;
+  background-image: url("clipboard.jpg");
+  background-position: center top;
+
+  background-size: 120vh;
+  background-repeat: no-repeat;
+}
+
+header {
+  font-size: 1.5rem;
+  display: grid;
   justify-content: center;
   grid-template-rows: 1fr 1fr;
 }
